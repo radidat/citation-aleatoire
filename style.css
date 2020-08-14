@@ -1,0 +1,58 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blue;
+    font-family: "Cinzel", "Great Vibes";
+    transition: all 0.5s linear
+}
+.main
+{
+    position: relative;
+    /*background-color: aqua;*/
+
+
+}
+.container
+{
+    position: absolute;
+    top:200px;
+    left:450px;
+    text-align: center;
+    background-color: #fff;
+    width:400px;
+    height: 250px;
+    border-radius: 5px;
+
+
+}
+.quote
+{
+    margin: 10px 20px;
+    quotes : "«" "»" '"' '"';
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    transition: all 0.5s linear;
+    color : blue;
+
+}
+.removequote
+{
+    display: "none";
+}
+#button
+{
+    background-color: blue;
+    margin-top: 30px;
+    color: black;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    font-family: "Cinzel";
+    font-size: 15px;
+    transition: all 0.5s linear;
+    cursor: pointer;
+}
